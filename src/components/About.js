@@ -1,24 +1,20 @@
 import React from 'react'
 import './About.css'
+import AboutItem from './AboutItem'
 
 function About() {
   return (
-    <div className='cards'>
-      <h1>About</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <>
-              <li className='cards__item'>
-                <div className='cards__item__link'>HTML</div>
-              </li>
-              <li className='cards__item'>
-                <div className='cards__item__link'>CSS</div>
-              </li>
-              <li className='cards__item'>
-                <div className='cards__item__link'>JS - ES6</div>
-              </li>
-            </>
+    <div className='acards'>
+      <h1>Skills</h1>
+      <div className='acards__container'>
+        <div className='acards__wrapper'>
+          <ul className='acards__items'>
+            <AboutItem src='images/img-1.jpg' text='HTML 5' />
+            <AboutItem src='images/img-2.jpg' text='CSS 3' />
+            <AboutItem src='images/img-3.jpg' text='JS ES6' />
+            <AboutItem src='images/img-1.jpg' text='React' />
+            <AboutItem src='images/img-2.jpg' text='Bootstrap' />
+            <AboutItem src='images/img-3.jpg' text='Sass' />
           </ul>
         </div>
       </div>

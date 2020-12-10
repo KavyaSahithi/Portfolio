@@ -45,9 +45,20 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 About
               </Link>
+            </li>
+            <li className='nav-item'>
+              <a
+                href='https://punnecessary.netlify.app'
+                rel='noreferrer'
+                target='_blank'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Art
+              </a>
             </li>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>

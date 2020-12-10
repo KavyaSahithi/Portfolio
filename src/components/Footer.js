@@ -52,7 +52,7 @@ function Footer() {
           <i className='fab fa-linkedin' />
         </a>
         <a
-          href='https://codepen.io/'
+          href='https://codepen.io/kavyasahithi'
           className='social-icon-link codepen'
           rel='noreferrer'
           target='_blank'
