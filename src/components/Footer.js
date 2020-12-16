@@ -32,6 +32,7 @@ function Footer() {
           <small className='website-rights'>
             copyright Kavya Sahithi © 2020
           </small>*/}
+      <>.</>
       <div className='social-icons'>
         <a
           href='https://github.com/KavyaSahithi'
@@ -44,7 +45,7 @@ function Footer() {
         </a>
         <a
           href='https://www.linkedin.com/in/kavya-sahithi-29280433/?originalSubdomain=in'
-          className='social-icon-link twitter'
+          className='social-icon-link linkedIn'
           rel='noreferrer'
           target='_blank'
           aria-label='LinkedIn'
@@ -69,6 +70,7 @@ function Footer() {
         >
           <i className='far fa-envelope' />
         </a>
+
         <a
           href='https://www.instagram.com/kavya.sahithi/'
           className='social-icon-link instagram'
@@ -79,6 +81,15 @@ function Footer() {
           <i className='fab fa-instagram' />
         </a>
       </div>
+      <button
+        className='btn--cv'
+        onClick={(e) => {
+          e.preventDefault()
+          window.open('/cv.pdf', '_blank')
+        }}
+      >
+        CV
+      </button>
     </div>
   )
 }

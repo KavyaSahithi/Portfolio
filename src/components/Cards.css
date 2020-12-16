@@ -106,6 +106,7 @@ h1 {
 }
 
 .smallB {
+  cursor: pointer;
   background-color: #242424;
   margin-left: 15px;
   width: 20%;

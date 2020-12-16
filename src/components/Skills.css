@@ -1,0 +1,41 @@
+.acards {
+  padding: 3rem;
+  padding-top: 0;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.skills {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img {
+  height: 100px;
+  width: auto;
+  align-self: auto;
+  padding-bottom: 5px;
+}
+
+.tools-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 460px) {
+  .img {
+    height: 20vw;
+  }
+}

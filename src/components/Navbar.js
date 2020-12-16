@@ -45,7 +45,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
@@ -76,7 +76,17 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+          {button && (
+            <Button
+              buttonStyle='btn--outline'
+              onClick={(e) => {
+                e.preventDefault()
+                window.location.href = '/contact'
+              }}
+            >
+              Contact
+            </Button>
+          )}
         </div>
       </nav>
     </>

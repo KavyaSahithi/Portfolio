@@ -3,7 +3,7 @@ import '../../App.css'
 import Cards from '../Cards'
 import HeroSection from '../HeroSection'
 import Footer from '../Footer'
-import About from '../About.js'
+import Skills from '../Skills.js'
 
 function Home() {
   return (
@@ -12,7 +12,7 @@ function Home() {
       <br />
       <br />
       <Cards />
-      <About />
+      <Skills />
       <Footer />
     </>
   )

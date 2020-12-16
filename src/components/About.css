@@ -1,50 +1,36 @@
-.acards {
-  padding: 3rem;
-  background: #fff;
-  display: block;
-  align-items: center;
-}
-
 h1 {
   text-align: center;
-  display: block;
-  padding-bottom: 70px;
 }
 
-.skills {
-  width: 90%;
+.about {
+  padding: 4rem;
+  opacity: 1;
+  height: 100vh;
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 1120px;
-  height: auto;
-  flex-grow: 4;
-  margin: 0 auto;
-  justify-content: space-around;
-  flex-basis:auto;
-  align-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  
+  box-shadow: inset 0 0 0 1000px #c0e7c8;
+  ;
+  object-fit: contain;
 }
 
-.img {
-  height: 15vh;
-  width: auto;
-  align-self: auto;
+.about-container {
+  padding: 5rem;
+  color: #1d1a1a;
+  background-color: rgb(18, 19, 19);
+  opacity: 1;
+  margin: 2vw 20vw 6vw 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .acards__items {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .acards__item {
-    margin-bottom: 2rem;
-  }
+.text{
+  color: white;
 }
