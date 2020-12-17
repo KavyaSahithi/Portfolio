@@ -41,13 +41,9 @@ function About() {
               <li> Libraries : REACT, BOOTSRTAP, SASS</li>
               <li>
                 {' '}
-                Languages : GIT/ GITHUB, VS CODE, NPM, NETLIFY, FIGMA, CODEPEN,
+                Tools : GIT/ GITHUB, VS CODE, NPM, NETLIFY, FIGMA, CODEPEN,
                 SANITY
               </li>
-            </ul>
-            <br />
-            <p>My long term goals include </p>
-            <ul>
               <li>learning UI-UX and some backend to tie it all together. </li>
               <li>
                 create some kind of course material or guides to help beginners
