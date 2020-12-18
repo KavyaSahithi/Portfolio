@@ -15,8 +15,8 @@ h1 {
 
 .about-container {
   padding: 2rem;
-  color: #1d1a1a;
-  background-color: rgb(18, 19, 19);
+  color: #242424;
+  background-color: #242424;
   opacity: 1;
   margin: 2vw 10vw 6vw 10vw;
   display: flex;
@@ -26,7 +26,7 @@ h1 {
   justify-content: space-between;
 }
 
-.text {
+.textAbout {
   color: white;
 }
 

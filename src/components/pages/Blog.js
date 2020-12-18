@@ -28,7 +28,7 @@ function Blog() {
       <h1>My Blog</h1>
       {/*<h2>Welcome to my world</h2>*/}
       <section className='blog-container'>
-        <div className='grid'>
+        <div className='allPosts'>
           {postData &&
             postData.map((post, index) => (
               <article className='text'>
@@ -39,6 +39,7 @@ function Blog() {
                     textDecoration: 'none',
                     color: 'black',
                     backgroundColor: 'white',
+                    alignSelf: 'center',
                   }}
                 >
                   <div className='blogSpan' key={index}>
@@ -48,12 +49,13 @@ function Blog() {
                       className='blogImage'
                       style={{
                         padding: '10px',
+                        width: '200px',
+                        height: 'auto',
                       }}
                     />
-
-                    <div className='span2'>
-                      <h3 className='blogTitle'>{post.title}</h3>
-                    </div>
+                    <h3 style={{ color: 'black', textAlign: 'center' }}>
+                      {post.title}
+                    </h3>
                   </div>
                 </Link>
               </article>

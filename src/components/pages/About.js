@@ -7,7 +7,7 @@ function About() {
       <div className='about'>
         <h1>About Me</h1>
         <div className='about-container'>
-          <div className='text'>
+          <div className='textAbout'>
             <p>
               I am Kavya. I have a degree in Architecture design and had been
               working as an architect for 3.5 years. I am also very passionate
@@ -28,22 +28,38 @@ function About() {
             </p>
             <br />
             <p>
-              While i found it extremely challenging at first, coming from a
-              non-tech background, I am highly motivated to create websites and
-              write code that I am proud of. I find the overall process quite
-              rewarding and cannot wait to do the same in a more professional
-              environment.{' '}
+              While i found it extremely challenging at first, I am highly
+              motivated to create websites and write code that I am proud of. I
+              find the overall process quite rewarding.
             </p>
             <br />
             <p>My current skills include </p>
             <ul>
-              <li> Languages : HTML, CSS, JAVASCRIPT - ES6</li>
-              <li> Libraries : REACT, BOOTSRTAP, SASS</li>
               <li>
                 {' '}
-                Tools : GIT/ GITHUB, VS CODE, NPM, NETLIFY, FIGMA, CODEPEN,
-                SANITY
+                Languages:{' '}
+                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
+                  HTML, CSS, Javascript - ES6
+                </span>
               </li>
+              <li>
+                {' '}
+                Libraries:{' '}
+                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
+                  React, Bootstrap, Sass
+                </span>
+              </li>
+              <li>
+                {' '}
+                Tools:{' '}
+                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
+                  Git, Github, VS-Code, npm, Netlify, Figma, Codepen, Sanity
+                </span>
+              </li>
+            </ul>
+            <br />
+            <p>My long term goals are </p>
+            <ul>
               <li>learning UI-UX and some backend to tie it all together. </li>
               <li>
                 create some kind of course material or guides to help beginners
