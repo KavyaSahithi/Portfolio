@@ -76,17 +76,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && (
-            <Button
-              buttonStyle='btn--outline'
-              onClick={(e) => {
-                e.preventDefault()
-                window.location.href = '/contact'
-              }}
-            >
-              Contact
-            </Button>
-          )}
+          {button && <Button buttonStyle='btn--outline'>Contact</Button>}
         </div>
       </nav>
     </>
