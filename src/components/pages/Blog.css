@@ -8,12 +8,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 3rem;
   background-color: #c0e7c8;
 }
 
 .blog-container {
-  padding: 2.85rem;
+  padding: 2rem;
   color: white;
   background-color: #242424;
   opacity: 1;

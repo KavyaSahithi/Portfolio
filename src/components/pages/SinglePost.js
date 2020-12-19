@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './SinglePost.css'
 import { useParams } from 'react-router-dom'
 import sanityClient from '../../client.js'
+import Footer from '../Footer'
 
 import BlockContent from '@sanity/block-content-to-react'
 
@@ -31,33 +32,36 @@ export default function SinglePost() {
   }, [slug])
   if (!singlePost) return <div>Loading ... </div>
   return (
-    <div className='singlePost'>
-      <div className='singlePostContainer'>
-        <h1
-          style={{
-            backgroundColor: ' #242424',
-            padding: '1vw 3vw',
-            color: 'white',
-          }}
-        >
-          {singlePost.title}
-        </h1>
-        <div className='postCard'>
-          <img
-            src={singlePost.mainImage.asset.url}
-            alt={singlePost.title}
-            style={{ width: '30vw', float: 'left', paddingRight: '15px' }}
-          />
+    <>
+      <div className='singlePost'>
+        <div className='singlePostContainer'>
+          <h1
+            style={{
+              backgroundColor: ' #242424',
+              padding: '1vw 3vw',
+              color: 'white',
+            }}
+          >
+            {singlePost.title}
+          </h1>
+          <div className='postCard'>
+            <img
+              src={singlePost.mainImage.asset.url}
+              alt={singlePost.title}
+              style={{ width: '30vw', float: 'left', paddingRight: '15px' }}
+            />
 
-          <BlockContent
-            blocks={singlePost.body}
-            projectId='efn403af'
-            dataset='production'
-            className='postContent'
-          />
+            <BlockContent
+              blocks={singlePost.body}
+              projectId='efn403af'
+              dataset='production'
+              className='postContent'
+            />
+          </div>
         </div>
       </div>
-    </div>
+      <Footer />
+    </>
   )
 }
 
