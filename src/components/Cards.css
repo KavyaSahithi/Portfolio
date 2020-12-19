@@ -113,7 +113,7 @@ h1 {
   padding: 4px;
   color: white;
   text-align: center;
-  min-width: max-c;
+  min-width: max-content;
 }
 
 @media only screen and (min-width: 1200px) {

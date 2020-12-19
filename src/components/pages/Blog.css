@@ -8,20 +8,16 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 5rem;
   background-color: #c0e7c8;
-  object-fit: contain;
-  min-height: screen;
 }
 
 .blog-container {
-  padding: 2rem;
+  padding: 2.85rem;
   color: white;
   background-color: #242424;
   opacity: 1;
-  margin: 2vw 10vw 6vw 10vw;
-  width: 80%;
-
+  width: 95%;
 }
 
 .allPosts {
@@ -30,9 +26,8 @@ h1 {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  
-
 }
+
 .text {
   color: white;
   display: flex;
@@ -46,11 +41,16 @@ h1 {
   .blog-container {
     width: 100%;
   }
-  .footer-link-wrapper {
-    flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+  .blog-container {
+    width: 100%;
+    background-color: #c0e7c8;
+    padding-top:0;
   }
-  .social-media-wrap {
-    flex-direction: column;
+  .blog{
+    padding-top:2rem;
   }
 }
 

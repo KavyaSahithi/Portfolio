@@ -31,7 +31,7 @@ function Blog() {
         <div className='allPosts'>
           {postData &&
             postData.map((post, index) => (
-              <article className='text'>
+              <article className='text' key={index}>
                 <Link
                   to={'/post/' + post.slug.current}
                   key={post.slug.current}
@@ -49,11 +49,17 @@ function Blog() {
                       className='blogImage'
                       style={{
                         padding: '10px',
-                        width: '200px',
+                        width: '300px',
                         height: 'auto',
                       }}
                     />
-                    <h3 style={{ color: 'black', textAlign: 'center' }}>
+                    <h3
+                      style={{
+                        color: 'black',
+                        textAlign: 'center',
+                        paddingBottom: '5px',
+                      }}
+                    >
                       {post.title}
                     </h3>
                   </div>

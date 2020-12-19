@@ -28,6 +28,7 @@ h1 {
 
 .textAbout {
   color: white;
+  font-size: 1.3em;
 }
 
 @media screen and (max-width: 820px) {
@@ -42,4 +43,13 @@ h1 {
   }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 410px) {
+  
+  .about-container {
+    width: 100%;
+  }
+  .about {
+    padding: 1.2rem;
+  }
+}
+  @media screen and (max-width: 768px) {}

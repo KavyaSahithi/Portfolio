@@ -38,8 +38,6 @@
   width: 240px;
 }
 
-
-
 .btn--cv {
   padding: 6px 12px;
   border-radius: 2px;
@@ -98,4 +96,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 420px) {
+  .btn--cv {
+    padding: 6px 12px;
+   
+  }
+}

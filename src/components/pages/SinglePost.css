@@ -4,7 +4,8 @@ h1 {
 
 .singlePostContainer {
   padding: 20px;
-  padding-top:70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   color: rgb(12, 12, 12);
   background-color: #c0e7c8;
   opacity: 1;
@@ -12,7 +13,8 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height:100vh;
+  font-size: 1.1em;
+  min-height: 90vh;
 }
 
 .postCard {
@@ -24,8 +26,7 @@ h1 {
 }
 
 .postImage {
-  padding:10px;
-  
+  padding: 10px;
 }
 
 .postContent {
