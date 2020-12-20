@@ -72,3 +72,10 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .hero-container>h1 {
+    font-size: 0;
+    margin: 0;
+  }
+}
