@@ -19,11 +19,13 @@ h1 {
   background-color: #242424;
   opacity: 1;
   margin: 2vw 10vw 6vw 10vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
+}
+
+.profilePic {
+  float: right;
+  width: 15rem;
+  padding: 15px;
+  border-radius: 50%;
 }
 
 .textAbout {
@@ -44,12 +46,18 @@ h1 {
 }
 
 @media screen and (max-width: 410px) {
-  
   .about-container {
     width: 100%;
   }
   .about {
     padding: 1.2rem;
   }
+  .profilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   float: none;
+  }
 }
-  @media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 768px) {}

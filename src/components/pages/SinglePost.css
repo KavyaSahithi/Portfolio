@@ -13,8 +13,8 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1.1em;
-  min-height: 90vh;
+  font-size: 1.2em;
+  line-height: 1.7;
 }
 
 .postCard {

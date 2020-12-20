@@ -40,11 +40,19 @@ function Blog() {
                     style={{
                       textDecoration: 'none',
                       color: 'black',
-                      backgroundColor: 'white',
+                      backgroundColor: '#c0e7c8',
                       alignSelf: 'center',
                     }}
                   >
-                    <div className='blogSpan' key={index}>
+                    <div
+                      className='blogSpan'
+                      key={index}
+                      style={{
+                        backgroundColor: '#242424',
+                        padding: '5px',
+                        paddingBottom: '10px',
+                      }}
+                    >
                       <img
                         src={post.mainImage.asset.url}
                         alt={post.mainImage.alt}
@@ -53,13 +61,15 @@ function Blog() {
                           padding: '10px',
                           width: '300px',
                           height: 'auto',
+                          borderRadius: '20%',
                         }}
                       />
                       <h3
                         style={{
-                          color: 'black',
+                          color: 'white',
                           textAlign: 'center',
                           paddingBottom: '5px',
+                          fontSize: '1.3rem',
                         }}
                       >
                         {post.title}

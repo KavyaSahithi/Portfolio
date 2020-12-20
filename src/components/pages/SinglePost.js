@@ -30,6 +30,7 @@ export default function SinglePost() {
       .then((data) => setSinglePost(data[0]))
       .catch(console.error)
   }, [slug])
+
   if (!singlePost) return <div>Loading ... </div>
   return (
     <>
@@ -45,17 +46,16 @@ export default function SinglePost() {
             {singlePost.title}
           </h1>
           <div className='postCard'>
-            <img
+            {/*<img
               src={singlePost.mainImage.asset.url}
               alt={singlePost.title}
               style={{ width: '30vw', float: 'left', paddingRight: '15px' }}
-            />
+            />*/}
 
             <BlockContent
               blocks={singlePost.body}
               projectId='efn403af'
               dataset='production'
-              className='postContent'
             />
           </div>
         </div>

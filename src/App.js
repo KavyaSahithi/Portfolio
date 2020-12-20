@@ -7,7 +7,6 @@ import About from './components/pages/About.js'
 import Contact from './components/pages/Contact'
 import Blog from './components/pages/Blog'
 import SinglePost from './components/pages/SinglePost'
-import Cards from './components/Cards.js'
 import ScrollToTop from './components/Scroll'
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/projects' component={Cards} />
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
             <Route path='/blog' component={Blog} />

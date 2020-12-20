@@ -1,6 +1,7 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  scroll-margin: 15vh;
 }
 
 h1 {

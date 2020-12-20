@@ -1,13 +1,26 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import './Cards.css'
 import CardItem from './CardItem'
 import Skills from './Skills'
 import Footer from './Footer'
+import { useLocation } from 'react-router-dom'
 
 function Cards() {
+  const myRef = useRef(null)
+  const location = useLocation()
+  useEffect(() => {
+    if (location.hash === '#projects') {
+      myRef.current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest',
+      })
+    }
+  }, [location])
+
   return (
     <>
-      <div className='cards'>
+      <div className='cards' ref={myRef}>
         <h1>Recent Projects</h1>
         <div className='cards__container'>
           <div className='cards__wrapper'>
