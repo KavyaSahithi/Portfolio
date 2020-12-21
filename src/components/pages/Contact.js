@@ -59,7 +59,7 @@ function Contact() {
           className='btn--contact'
           onClick={(e) => {
             e.preventDefault()
-            window.open('/cv.pdf', '_blank')
+            window.open('/KavyaSahithi.pdf', '_blank')
           }}
         >
           CV

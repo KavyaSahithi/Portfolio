@@ -50,7 +50,7 @@ function Blog() {
                       style={{
                         backgroundColor: '#242424',
                         padding: '5px',
-                        paddingBottom: '10px',
+                        paddingBottom: '0px',
                       }}
                     >
                       <img

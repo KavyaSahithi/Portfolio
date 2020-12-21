@@ -28,7 +28,7 @@ function About() {
               </li>
               <li>
                 {' '}
-                Libraries:{' '}
+                Libraries /Frameworks:{' '}
                 <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
                   React, Bootstrap, Sass
                 </span>

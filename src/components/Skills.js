@@ -11,7 +11,9 @@ function Skills() {
           <img src='images/IMG-2499.PNG' alt='languages' className='img' />
         </div>
         <div className='frameworks' style={{ padding: '20px' }}>
-          <h3 style={{ textAlign: 'center', padding: '10px' }}>FRAMEWORKS</h3>
+          <h3 style={{ textAlign: 'center', padding: '10px' }}>
+            LIBRARIES/ FRAMEWORKS
+          </h3>
           <img src='images/IMG-2500.PNG' alt='frameworks' className='img' />
         </div>
         <div className='tools' style={{ padding: '20px' }}>

@@ -85,7 +85,7 @@ function Footer() {
         className='btn--cv'
         onClick={(e) => {
           e.preventDefault()
-          window.open('/cv.pdf', '_blank')
+          window.open('/KavyaSahithi.pdf', '_blank')
         }}
       >
         CV

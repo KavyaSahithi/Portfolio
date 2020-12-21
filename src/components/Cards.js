@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import './Cards.css'
 import CardItem from './CardItem'
-import Skills from './Skills'
 import Footer from './Footer'
 import { useLocation } from 'react-router-dom'
 
@@ -92,7 +91,7 @@ function Cards() {
           </div>
         </div>
       </div>
-      <Skills />
+
       <Footer />
     </>
   )
