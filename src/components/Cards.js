@@ -42,14 +42,6 @@ function Cards() {
 
             <ul className='cards__items'>
               <CardItem
-                src='images/dice game.png'
-                text='2 player dice game with beginner and pro version'
-                label='Vannila JS, CSS'
-                live='https://kavyasahithi.github.io/Dice-Game'
-                code='https://github.com/KavyaSahithi/Dice-Game'
-              />
-
-              <CardItem
                 src='images/covid tracker.png'
                 text='Covid tracker with stats and data'
                 label='React context, axios'
@@ -57,11 +49,18 @@ function Cards() {
                 code='https://github.com/KavyaSahithi/Github-Finder'
               />
               <CardItem
-                src='images/trivia quiz.png'
-                text='Trivia quiz with various categories to chose from'
-                label='React hooks and context'
-                live='https://github-finder-kavya.netlify.app/'
-                code='https://github.com/KavyaSahithi/Github-Finder'
+                src='images/malinis kitchen.png'
+                text='Home Kitchen website with delivery & takeaway'
+                label='HTML,CSS & JS'
+                live='https://mailinis-kitchen.netlify.app/'
+                code='https://github.com/KavyaSahithi/Malini-s-Kitchen'
+              />
+              <CardItem
+                src='images/dice game.png'
+                text='2 player dice game with beginner and pro version'
+                label='Vannila JS, CSS'
+                live='https://kavyasahithi.github.io/Dice-Game'
+                code='https://github.com/KavyaSahithi/Dice-Game'
               />
             </ul>
 
