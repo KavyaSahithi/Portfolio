@@ -50,7 +50,7 @@ function Cards() {
               />
               <CardItem
                 src='images/malinis kitchen.png'
-                text='Home Kitchen website with delivery & takeaway'
+                text='Home Kitchen website'
                 label='HTML,CSS & JS'
                 live='https://mailinis-kitchen.netlify.app/'
                 code='https://github.com/KavyaSahithi/Malini-s-Kitchen'
