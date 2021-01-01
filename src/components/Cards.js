@@ -32,32 +32,32 @@ function Cards() {
                 code='https://github.com/KavyaSahithi/Github-Finder'
               ></CardItem>
               <CardItem
-                src='images/Budget app.png'
-                text='Keep track of income-expenditure ratio to calculate net savings'
-                label='Vanilla JS DOM manipulation, CSS'
-                live='https://kavyasahithi.github.io/Budget-App/'
-                code='https://github.com/KavyaSahithi/Budget-App'
+                src='images/Green Seat.png'
+                text='E-commerce site for buying furniture from different brands'
+                label='React context,Hooks,axios'
+                live='https://green-seat-co.netlify.app/'
+                code='https://github.com/KavyaSahithi/Green-Seat.-Co'
               />
             </ul>
 
             <ul className='cards__items'>
               <CardItem
-                src='images/Green Seat.png'
-                text='E-commerce site for furniture'
-                label='React context,Hooks,axios'
-                live='https://green-seat-co.netlify.app/'
-                code='https://github.com/KavyaSahithi/Green-Seat.-Co'
+                src='images/Budget app.png'
+                text='Keep track of income-expenditure ratio & calculate net savings'
+                label='Vanilla JS, DOM manipulation, CSS'
+                live='https://kavyasahithi.github.io/Budget-App/'
+                code='https://github.com/KavyaSahithi/Budget-App'
               />
               <CardItem
                 src='images/malinis kitchen.png'
-                text='Home Kitchen website'
+                text='Website for a home-kitchen service in Bangalore, India'
                 label='HTML,CSS & JS'
                 live='https://mailinis-kitchen.netlify.app/'
                 code='https://github.com/KavyaSahithi/Malini-s-Kitchen'
               />
               <CardItem
                 src='images/dice game.png'
-                text='2 player dice game with beginner and pro version'
+                text='2 player dice game (with beginner and pro versions)'
                 label='Vannila JS, CSS'
                 live='https://kavyasahithi.github.io/Dice-Game'
                 code='https://github.com/KavyaSahithi/Dice-Game'
@@ -81,7 +81,7 @@ function Cards() {
               />
               <CardItem
                 src='images/Todo list.png'
-                text='To-do List'
+                text='Simple Task List'
                 label='React'
                 live='https://task-list-1.netlify.app/'
                 code='https://github.com/KavyaSahithi/Todo-list'
