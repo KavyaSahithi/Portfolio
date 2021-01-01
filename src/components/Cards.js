@@ -42,11 +42,11 @@ function Cards() {
 
             <ul className='cards__items'>
               <CardItem
-                src='images/covid tracker.png'
-                text='Covid tracker with stats and data'
-                label='React context, axios'
-                live='https://github-finder-kavya.netlify.app/'
-                code='https://github.com/KavyaSahithi/Github-Finder'
+                src='images/Green Seat.png'
+                text='E-commerce site for furniture'
+                label='React context,Hooks,axios'
+                live='https://green-seat-co.netlify.app/'
+                code='https://github.com/KavyaSahithi/Green-Seat.-Co'
               />
               <CardItem
                 src='images/malinis kitchen.png'
