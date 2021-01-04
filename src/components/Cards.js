@@ -45,7 +45,7 @@ function Cards() {
                 src='images/Budget app.png'
                 text='Keep Track Of Income-Expenditure Ratio & Calculate Net Savings'
                 label='Vanilla JS, DOM manipulation, CSS'
-                live='https://kavyasahithi.github.io/Budget-App/'
+                live='https://budget-pal.netlify.app/'
                 code='https://github.com/KavyaSahithi/Budget-App'
               />
               <CardItem
@@ -98,7 +98,7 @@ function Cards() {
               <CardItem
                 src='images/animation.png'
                 text='Animation Landing Page'
-                label='CSS, Gsap'
+                label='CSS, GSAP'
                 live='https://landing-page-animation.netlify.app/'
                 code='https://github.com/KavyaSahithi/Landing-page-animation'
               />
