@@ -52,7 +52,7 @@ function Cards() {
                 src='images/malinis kitchen.png'
                 text='Website For A Home-Kitchen Service In Bangalore, India'
                 label='HTML, CSS, JavaScript'
-                live='https://mailinis-kitchen.netlify.app/'
+                live='https://maliniskitchen.store/'
                 code='https://github.com/KavyaSahithi/Malini-s-Kitchen'
               />
               <CardItem
@@ -68,14 +68,14 @@ function Cards() {
               <CardItem
                 src='images/meme generator.png'
                 text='Meme Generator'
-                label='React, API call'
+                label='React, External API'
                 live='https://meme-generator-kavya.netlify.app/'
                 code='https://github.com/KavyaSahithi/Meme-generator'
               />
               <CardItem
                 src='images/weather app.png'
                 text='Weather Monitor App'
-                label='JavaScript, API call'
+                label='JavaScript, External API'
                 live='https://weather-monitor-app.netlify.app'
                 code='https://github.com/KavyaSahithi/Weather-monitor'
               />
@@ -97,7 +97,7 @@ function Cards() {
               />
               <CardItem
                 src='images/animation.png'
-                text='Animation landing page'
+                text='Animation Landing Page'
                 label='CSS, Gsap'
                 live='https://landing-page-animation.netlify.app/'
                 code='https://github.com/KavyaSahithi/Landing-page-animation'
