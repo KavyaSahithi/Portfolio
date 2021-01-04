@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className='contact'>
       <h1>Contact</h1>
-      <h3>Feel free to reach out!</h3>
+      <h3>Feel Free To Reach Out To Me!</h3>
       <div className='contact-container'>
         <div className='contact-icons'>
           <a
