@@ -64,13 +64,13 @@ function About() {
             </p>
             <br />
             <p>
-              I accidentally stumbled upon coding & web development while trying
-              to discuss the design for my art site and found it very
-              intriguing. After a lot of contemplation, I decided to jump right
-              in and pursue a career in web development. I was fortunate enough
-              to be surrounded by family and friends in the same field who
-              guided me through the process & helped me narrow down my interests
-              and find the direction i wanted to go in.
+              I stumbled upon coding & web development while trying to discuss
+              the design for my art site and found it very intriguing. After a
+              lot of contemplation, I decided to jump right in and pursue a
+              career in web development. I was fortunate enough to be surrounded
+              by family and friends in the same field who guided me through the
+              process & helped me narrow down my interests and find the
+              direction i wanted to go in.
             </p>
             <br />
             <p>
