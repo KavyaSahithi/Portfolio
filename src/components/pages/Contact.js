@@ -9,7 +9,7 @@ function Contact() {
       <div className='contact-container'>
         <div className='contact-icons'>
           <a
-            href='mailto:kavya.lily@gmail.com'
+            href="mailto:kavya.lily@gmail.com"
             className='contact-icon-link email'
             rel='noreferrer'
             target='_blank'
@@ -27,7 +27,7 @@ function Contact() {
             <i className='fab fa-github' />
           </a>
           <a
-            href='https://www.linkedin.com/in/kavya-sahithi-29280433/?originalSubdomain=in'
+            href='https://www.linkedin.com/in/kavya-sahithi-kanmuri-29280433/'
             className='contact-icon-link linkedIn'
             rel='noreferrer'
             target='_blank'

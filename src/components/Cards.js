@@ -20,7 +20,7 @@ function Cards() {
   return (
     <>
       <div className='cards' ref={myRef}>
-        <h1>Recent Projects</h1>
+        <h1>Projects</h1>
         <div className='cards__container'>
           <div className='cards__wrapper'>
             <ul className='cards__items'>
@@ -52,7 +52,7 @@ function Cards() {
                 src='images/malinis kitchen.png'
                 text='Website For A Home-Kitchen Service In Bangalore, India'
                 label='HTML, CSS, JavaScript'
-                live='https://maliniskitchen.store/'
+                live='https://mailinis-kitchen.netlify.app'
                 code='https://github.com/KavyaSahithi/Malini-s-Kitchen'
               />
               <CardItem

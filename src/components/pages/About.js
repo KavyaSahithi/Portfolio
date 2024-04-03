@@ -17,83 +17,22 @@ function About() {
           <div className='textAbout'>
             <p>Hey! I am Kavya. I am a front end developer based in Berlin.</p>
             <br />
-            <p>My current skills include: </p>
-            <ul>
-              <li>
-                {' '}
-                Languages:{' '}
-                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-                  HTML, CSS, Javascript - ES6
-                </span>
-              </li>
-              <li>
-                {' '}
-                Libraries /Frameworks:{' '}
-                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-                  React, Bootstrap, Sass
-                </span>
-              </li>
-              <li>
-                {' '}
-                Tools:{' '}
-                <span style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-                  Git, Github, VS-Code, npm, Netlify, Figma, Codepen, Sanity
-                </span>
-              </li>
-            </ul>
+            <p>I would describe myself as a dynamic and results-oriented Front End Developer with a proven track record of successfully transforming standalone applications into integrated solutions within merchant portals. Expertise in frontend ecosystem and building user-friendly interfaces, onboarding portals, and internal back-office systems. </p>
+     
+     
+       
             <br />
-            <p>
-              I am constantly trying to master these skills and eager to pick up
-              new ones as well!
-            </p>
-
-            <br />
-            <p>
-              Here is my backstory! I have a degree in Architecture design and
-              had been working as an architect for 3.5 years. I am also very
-              passionate about drawing and was doing some freelance art on the
-              side (
-              <a
-                href='https://punnecessary.netlify.app/ '
-                style={{ color: 'white' }}
-              >
-                Website Link
-              </a>
-              ). I worked on custom art, portraits, caricatures, invitation
-              design, flyers, comics and merchandise.{' '}
-            </p>
-            <br />
-            <p>
-              I stumbled upon coding & web development while trying to discuss
-              the design for my art site and found it very intriguing. After a
-              lot of contemplation, I decided to jump right in and pursue a
-              career in web development. I was fortunate enough to be surrounded
-              by family and friends in the same field who guided me through the
-              process & helped me narrow down my interests and find the
-              direction i wanted to go in.
-            </p>
-            <br />
-            <p>
-              While i found it extremely challenging at first, I am highly
-              motivated to create websites and write code that I am proud of. I
-              find the overall process quite rewarding.
-            </p>
-            <br />
-
-            <p>My long term goals are </p>
-            <ul>
-              <li>learning UI-UX and some backend to tie it all together. </li>
-              <li>
-                create some kind of course material or guides to help beginners
-                like me get into tech.
-              </li>{' '}
-              <li>
-                Have a tech blog discussing any challenges I come across & how i
-                solve them.
-              </li>
-            </ul>
-            <br />
-          </div>
+            <p>I currently work at Banxware GmbH, Berlin, which is a fintech-startup as the first engineer and worked as the sole frontend engineer in a 3 person engineering team until it grew into a mid sized company. Built 4 complete fintech products from architecture to launch during this tenure. </p>
+          < br/>
+          <p>My most recent projects include:</p>
+          <ul>
+            <li>Led the ideation, architecture, and planning for a whitelabel product catering to merchant cash advance loan applications for SMEs, from inception to launch.</li>
+<li>Developed industry-specific product offerings and pricing structures optimizing application flows and features.</li>
+<li>Engineered a Merchant portal tool for comprehensive loan tracking and management.</li>
+<li>Spearheaded transition of white label standalone product application to an embedded lending tool within merchant portals of partner platforms. Built a loan application with a CDN-delivered frontend while monitoring and resolving production bugs.</li>
+<li>Created a user-friendly Next.js onboarding portal for new merchants, incorporating Auth0 authentication for enhanced security.</li>
+<li>Developed a procedure-oriented internal back-office system for risk assessment, automating 3 different manual processes through integration with external tools and consolidation of user data. Integrated HubSpot, chatbot, and Codat for real-time revenue data collection, enhancing risk assessment capabilities.</li>
+</ul></div>
         </div>
       </div>
 

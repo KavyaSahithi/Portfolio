@@ -10,10 +10,7 @@ function HeroSection() {
       <h1>KAVYA SAHITHI</h1>
       <br />
       <p>
-        I am Kavya Sahithi, a self taught front-end developer, interested in
-        building high quality, responsive websites and writing clean code. I
-         have a finesse for composition, design and creativity, owing to my
-        previous job as an Architect and Designer.
+        I am Kavya Sahithi, a dynamic and results-oriented Front End Developer with a proven track record of successfully transforming standalone applications into integrated solutions within merchant portals. Expertise in frontend ecosystem and building user-friendly interfaces, onboarding portals, and internal back-office systems. 
       </p>
     </div>
   )

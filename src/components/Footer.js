@@ -44,7 +44,7 @@ function Footer() {
           <i className='fab fa-github' />
         </a>
         <a
-          href='https://www.linkedin.com/in/kavya-sahithi-29280433/?originalSubdomain=in'
+          href='https://www.linkedin.com/in/kavya-sahithi-kanmuri-29280433/'
           className='social-icon-link linkedIn'
           rel='noreferrer'
           target='_blank'
